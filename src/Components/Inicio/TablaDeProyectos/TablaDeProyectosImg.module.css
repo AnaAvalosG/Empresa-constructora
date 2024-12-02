@@ -1,0 +1,41 @@
+.tabla-imagenes-proyectos{
+    width: 100%;
+    justify-content: center;
+margin-bottom: 10%;
+margin-top: 5%;
+}
+
+tr{
+    margin: 10px;
+}
+
+td{
+    width: 50%;
+    padding: 0; 
+    margin: 0;
+    
+}
+@media screen and (max-width:700px){
+    td{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center
+       
+    }
+}
+
+img{
+    height: 300px;
+    width:70%;
+    object-fit: cover;
+    border: double black 1px;
+   
+}
+@media screen and (max-width:700px){
+    img{
+       width: 300px;
+       justify-items: center;
+    }
+}
+
