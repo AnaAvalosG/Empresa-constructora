@@ -1,0 +1,16 @@
+.img-servicios{
+    height: 400px;
+    width:1000px;
+}
+
+
+@media screen and (max-width:700px){
+    .img-servicios{
+    width: 93%;
+    
+    }
+    .contenedor-componente-servicios{
+       text-align: start;
+    }
+
+  }

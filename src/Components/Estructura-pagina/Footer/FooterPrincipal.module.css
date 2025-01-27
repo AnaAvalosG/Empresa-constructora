@@ -1,0 +1,76 @@
+.footer{
+    height:50px;
+    margin-top: 10px;
+    
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+@media screen and (max-width:700px){
+    .contenedor-footer{
+        display: block;
+       align-items: center;
+    }
+
+}
+
+.contenedor-footer-asuntos-legales{
+    width: 50%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:700px){
+    .contenedor-footer-asuntos-legales{
+       width: 100%;
+       margin: 2px;
+    }
+
+}
+
+
+.div-footer-asuntos-legales{
+    display: flex;
+   font-size:20px;
+    margin-inline-start: 2px;
+
+}
+
+.p-footer-asuntos-legales{
+    color: rgb(34, 33, 33);
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:700px){
+    .p-footer-asuntos-legales{
+       font-size: smaller;
+    }
+
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+
+.div-footer-contenedor-redes-sociales{
+    width: 40%;
+    align-self: flex-end;
+    align-content: end;
+    display: flex;
+    margin: 10px;
+   
+}
+@media screen and (max-width:700px){
+    .div-footer-contenedor-redes-sociales{
+      width: 100%;
+     align-items: center;
+    }
+
+}

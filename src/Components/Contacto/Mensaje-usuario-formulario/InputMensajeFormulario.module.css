@@ -1,0 +1,26 @@
+.input {
+    background-color: rgb(220, 215, 215);
+    height: 100px;
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    display: inline-block;
+    vertical-align: top;
+    white-space: pre-wrap;
+}
+
+.input::after {
+    content: '\00a0';
+    visibility: hidden;
+}
+
+@media screen and (max-width:700px) {
+
+    .input {
+
+        width: 90%;
+
+    }
+
+}

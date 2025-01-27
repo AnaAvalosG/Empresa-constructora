@@ -1,0 +1,19 @@
+.h1-titulo-servicios{
+    padding: 10px;
+   
+}
+.boton-hacia-contacto{
+    text-decoration: none;
+    color: black;
+ }
+
+
+.contenedor-servicios{
+    width: 70%;
+}
+@media screen and (max-width:700px){
+    .contenedor-servicios{
+        width: 100%;
+      
+    }
+  }

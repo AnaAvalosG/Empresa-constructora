@@ -1,0 +1,17 @@
+.contenedor-eleginos{
+    margin: 20px;
+  text-align: start;
+    
+}
+
+.h3-titulo-eleginos{
+    text-decoration: underline 2px yellow;
+}
+
+@media screen and (max-width:700px){
+  .contenedor-eleginos{
+  
+  text-align: center;
+    
+}
+}

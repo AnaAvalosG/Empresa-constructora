@@ -1,0 +1,50 @@
+.tabla-imagenes-proyectos{
+    width: 100%;
+    justify-content: center;
+
+margin-top:5%;
+
+}
+img{
+    margin: 10px;
+}
+tr{
+    margin: 10px;
+}
+
+.contenedor-imagenes-de-nuestros-trabajos{
+    width: 50%;
+    padding: 0; 
+    margin: 0;
+    
+}
+@media screen and (max-width:700px){
+
+    td{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center
+       
+    }
+    .contenedor-imagenes-de-nuestros-trabajos{
+        width: 90%;
+        margin: 5px;
+    }
+}
+
+.img-obras-realizadas{
+    height: 300px;
+    width:90%;
+    object-fit: cover;
+    border: double black 1px;
+   
+}
+@media screen and (max-width:700px){
+    .img-obras-realizadas{
+       width:98%;
+       justify-items: center;
+       
+    }
+}
+

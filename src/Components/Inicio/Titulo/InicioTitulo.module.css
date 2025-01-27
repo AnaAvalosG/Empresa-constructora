@@ -1,25 +1,27 @@
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px
-  }
+.contenedor-titulo-pagina-inicio{
+    text-align: center;
+}
  
  .h1-titulo{
+
      text-shadow:
       -1px -1px 0 #f9f5f5, 
       1px -1px 0 #f9f5f5,
        -1px 1px 0 #f9f5f5,
         1px 1px 0 #f9f5f5;
  }
+ 
  @media screen and (max-width:700px){
     .h1-titulo{
         padding-top:0;
         margin-right: 50px;
        margin-left: 50px;
+       font-size:x-large;
     }
      
  }
  .h2-titulo{
-     font-size: xx-large;
+     font-size: large;
      text-shadow:
       -1px -1px 0 #f9f5f5, 
       1px -1px 0 #f9f5f5,

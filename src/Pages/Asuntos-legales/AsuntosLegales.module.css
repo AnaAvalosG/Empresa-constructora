@@ -1,0 +1,9 @@
+.contenedor-informacion{
+    margin: 10px;
+    text-align: start;
+}
+
+.contenedor-informacion-general-empresa{
+    text-align: center;
+    font-style: italic;
+}
