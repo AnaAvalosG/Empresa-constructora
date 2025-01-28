@@ -2,8 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./NavLinkItems.module.css"
 
-//Indica que hace cada link
-
+// eslint-disable-next-line react/prop-types
 const NavLinkItems = ({to, children}) => {
  return(
     <NavLink to={to}className={({ isActive }) => isActive ? styles.active : ""}>

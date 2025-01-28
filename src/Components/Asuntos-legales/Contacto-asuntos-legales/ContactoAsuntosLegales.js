@@ -1,5 +1,5 @@
 import styles from "./ContactoAsuntosLegales.module.css"
-
+import React from "react";
 
 function ContactoAsuntosLegales(){
     return(

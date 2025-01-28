@@ -1,3 +1,4 @@
+import React from "react";
 
 function GestionDeCookies() {
     return (
@@ -10,7 +11,7 @@ function GestionDeCookies() {
                 pero algunas partes del sitio no funcionarán.
                 La mayoría de los navegadores le permiten rechazar o aceptar cookies.
                 Las acciones específicas a tomar varían de un navegador a otro, pero
-                normalmente se pueden encontrar en el menú "Configuración" o "Preferencias".
+                normalmente se pueden encontrar en el menú &quot;Configuración&quot; o &quot;Preferencias&quot;.
             </p>
         </div>
     )

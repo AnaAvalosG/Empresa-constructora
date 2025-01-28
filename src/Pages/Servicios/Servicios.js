@@ -1,5 +1,6 @@
-// donde los usuarios puedan ver cuáles son los servicios
-// que ofrecen como profesionales del sector.
+// donde los usuarios puedan ver cuáles son los servicios ofrecidos
+
+import React from "react";
 import styles from "./Servicios.module.css"
 import { NavLink } from "react-router-dom";
 import ConsultoriaYAsesoramiento from "../../Components/ServiciosOfrecidos/ConsultoriaYAsesoramiento/ConsultoriaYAsesoramiento";

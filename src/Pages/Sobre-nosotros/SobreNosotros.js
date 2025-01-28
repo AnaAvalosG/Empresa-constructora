@@ -1,16 +1,16 @@
-// donde los usuarios puedan saber más sobre la
-// empresa y sobre el capital humano que la conforma.
 
+import React from "react";
 import CapitalHumano from "../../Components/Sobre-nosotros/CapitalHumano/CapitalHumano";
 import HistoriaEmpresa from "../../Components/Sobre-nosotros/HistoriaEmpresa.js/HistoriaEmpresa";
 
 const SobreNosotros = () => {
-    return(
+    return (
         <>
-        <HistoriaEmpresa />
-        <CapitalHumano />
-        
-    </>
+            <HistoriaEmpresa />
+            
+            <CapitalHumano />
+
+        </>
     )
 }
 

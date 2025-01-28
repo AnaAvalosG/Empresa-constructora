@@ -1,5 +1,5 @@
 import styles from "../Eleginos-para-tu-proyecto/Eleginos-para-tu-proyecto.module.css"
-
+import React from "react";
 function  EleginosParaTuProyecto() {
     return (
         <div className={styles['contenedor-eleginos']}>

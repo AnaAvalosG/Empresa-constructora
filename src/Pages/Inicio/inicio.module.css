@@ -1,60 +1,62 @@
-.div-inicio-titulo{
+.div-inicio-titulo {
    background-image: url("../../../public/Imagen-fondo-del-titulo/imagen-inicio-fondo.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
+   background-position: center;
+   background-attachment: fixed;
    width: 100%;
-    height: 65vh;
+   height: 65vh;
    margin-top: 0;
    padding-top: 110px;
 
 }
-@media screen and (max-width:700px){
-   .div-inicio-titulo{
+
+@media screen and (max-width:700px) {
+   .div-inicio-titulo {
       background-size: 250%;
       height: 40vh;
       background-position-x: center center;
       padding-top: 50px;
       background-attachment: scroll;
    }
-    
+
 }
 
-.contenedor-titulos-de-tabla{
+.contenedor-titulos-de-tabla {
    margin-right: auto;
    margin-left: auto;
    position: relative;
-    align-content: left;
-    align-items: left;
-  
- }
+   align-content: left;
+   align-items: left;
+
+}
 
 .proyectos-realizados {
-color:#e99c02;
-font-size: 25px;
+   color: #e99c02;
+   font-size: 25px;
 }
 
 
 
-.titulo-sueños-realidad{
+.titulo-sueños-realidad {
    font-size: 48px;
    font-weight: 700;
-   
+
 }
 
-.boton-hacia-contacto{
+@media screen and (max-width:700px) {
+   .proyectos-realizados {
+      font-size: 20px;
+   }
+
+   .titulo-sueños-realidad {
+      font-size: 30px;
+   }
+
+}
+
+.boton-hacia-contacto {
    text-decoration: none;
    color: black;
 }
 
-@media screen and (max-width:700px){
-   .proyectos-realizados {
-      font-size: 20px;
-      }
-
-   .titulo-sueños-realidad{
-     font-size: 30px;
-   }
-    
-}

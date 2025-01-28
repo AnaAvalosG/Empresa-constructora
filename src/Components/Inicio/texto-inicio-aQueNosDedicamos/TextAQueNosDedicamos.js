@@ -1,5 +1,5 @@
 import styles from "./TextoAQueNosDedicamos.module.css"
-
+import React from "react";
 
 function TextoAQueNosDedicamos(){
     return(

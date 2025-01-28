@@ -1,53 +1,53 @@
-.tabla-imagenes-proyectos{
+.tabla-imagenes-proyectos {
     width: 100%;
     justify-content: center;
-margin-bottom: 10%;
+    margin-bottom: 10%;
 
 }
 
-img{
-    margin: 10px;
-}
-tr{
+tr {
     margin: 10px;
 }
 
+img {
+    margin: 10px;
+}
 
-.contenedor-tabla-imagenes-proyecto{
+
+.contenedor-tabla-imagenes-proyecto {
     width: 50%;
-    padding: 0; 
+    padding: 0;
     margin: 0;
-    
+
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:700px) {
 
-    td{
+    td {
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center
-       
     }
-    .contenedor-tabla-imagenes-proyecto{
+
+    .contenedor-tabla-imagenes-proyecto {
         width: 90%;
         margin: 10px;
     }
 }
 
-.img-obras-realizadas-2{
+.img-obras-realizadas-2 {
     height: 300px;
-    width:90%;
+    width: 90%;
     object-fit: cover;
     border: double black 1px;
-   
+
 }
 
-@media screen and (max-width:700px){
-    .img-obras-realizadas-2{
-       width:98%;
-       justify-items: center;
-       margin: 5%;
+@media screen and (max-width:700px) {
+    .img-obras-realizadas-2 {
+        width: 98%;
+        justify-items: center;
+        margin: 5%;
     }
 }
-
