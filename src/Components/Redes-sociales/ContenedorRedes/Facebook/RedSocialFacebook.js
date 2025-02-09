@@ -8,7 +8,7 @@ function RedSocialFacebook() {
 
             <a href="https://www.facebook.com/RECOPAC/?locale=es_LA" target="_blank" rel="noreferrer">
 
-                <img src="\imagenes-footer\logo-facebook.png" className={styles['logo-redes-sociales']}></img>
+                <img src="/imagenes-footer/logo-facebook.png" className={styles['logo-redes-sociales']}></img>
 
             </a>
 

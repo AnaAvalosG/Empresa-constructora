@@ -27,7 +27,7 @@ function ConsultoriaYAsesoramiento() {
             </ul>
 
             <img
-                src="\imagenes-servicios\consultoria-y-asesoramiento.jpeg"
+                src="/imagenes-servicios/consultoria-y-asesoramiento.jpeg"
                 className={styles['img-servicios']}></img>
 
         </div>

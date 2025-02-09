@@ -25,7 +25,7 @@ function PermisosYLicencias() {
             </ul>
 
             <img
-                src="\imagenes-servicios\permisos-y-licencias.jpeg"
+                src="/imagenes-servicios/permisos-y-licencias.jpeg"
                 className={styles['img-servicios']}></img>
 
         </div>

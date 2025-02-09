@@ -10,7 +10,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\jefa.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/jefa.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -29,7 +29,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\coDirector.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/coDirector.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div >
 
@@ -49,7 +49,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleada1.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleada1.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -72,7 +72,7 @@ function NuestroEquipo() {
                 <tr>
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleado2.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleado2.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -93,7 +93,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleado3.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleado3.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -113,7 +113,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleada4.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleada4.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -136,7 +136,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleada5.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleada5.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -156,7 +156,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleado6.jpg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleado6.jpg" className={styles['img-nuestro-equipo']}></img>
 
                         <div>
 
@@ -176,7 +176,7 @@ function NuestroEquipo() {
 
                     <td className={styles["contenedor-informacion-trabajador"]}>
 
-                        <img src="\imagenes-nuestro-equipo\empleado7.jpeg" className={styles['img-nuestro-equipo']}></img>
+                        <img src="/imagenes-nuestro-equipo/empleado7.jpeg" className={styles['img-nuestro-equipo']}></img>
 
                         <div >
 

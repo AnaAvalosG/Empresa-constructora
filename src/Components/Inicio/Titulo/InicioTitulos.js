@@ -10,7 +10,7 @@ const InicioTitulos = () => {
             <h1 className={styles["h1-titulo"]}>RECO CONSTRUCCIONES</h1>
 
             <h2 className={styles["h2-titulo"]}>Always in process</h2>
-            
+
         </div>
 
 

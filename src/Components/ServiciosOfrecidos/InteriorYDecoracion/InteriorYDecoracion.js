@@ -24,7 +24,7 @@ function InteriorYDecoracion() {
             </ul>
 
             <img
-                src="\imagenes-servicios\decoracion.jpeg"
+                src="/imagenes-servicios/decoracion.jpeg"
                 className={styles['img-servicios']}></img>
 
         </div>

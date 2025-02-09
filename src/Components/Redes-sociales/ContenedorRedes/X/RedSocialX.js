@@ -8,7 +8,7 @@ function RedSocialX() {
 
             <a href="https://x.com/retokommerling" target="_blank" rel="noreferrer">
 
-                <img src="\imagenes-footer\logo-x.png" className={styles['logo-redes-sociales']}></img>
+                <img src="/imagenes-footer/logo-x.png" className={styles['logo-redes-sociales']}></img>
 
             </a>
 

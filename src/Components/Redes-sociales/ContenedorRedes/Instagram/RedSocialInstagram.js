@@ -7,7 +7,7 @@ function RedSocialInstagram() {
 
             <a href="https://www.instagram.com/recoarquitectura/" target="_blank" rel="noreferrer">
 
-                <img src="\imagenes-footer\logo-instagram.png" className={styles['logo-redes-sociales']}></img>
+                <img src="/imagenes-footer/logo-instagram.png" className={styles['logo-redes-sociales']}></img>
 
             </a>
 

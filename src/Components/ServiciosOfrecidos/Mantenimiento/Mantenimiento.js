@@ -27,7 +27,7 @@ function Mantenimiento() {
       </ul>
 
       <img
-        src="\imagenes-servicios\mantenimiento.jpeg"
+        src="/imagenes-servicios/mantenimiento.jpeg"
         className={styles['img-servicios']}></img>
 
     </div>

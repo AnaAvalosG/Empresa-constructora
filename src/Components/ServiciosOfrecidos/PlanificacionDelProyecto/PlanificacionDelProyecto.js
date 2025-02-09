@@ -25,7 +25,7 @@ function PlanificacionDelProyecto() {
             </ul>
 
             <img
-                src="\imagenes-servicios\plano-de-proyecto.jpeg"
+                src="/imagenes-servicios/plano-de-proyecto.jpeg"
                 className={styles['img-servicios']}>
 
             </img>

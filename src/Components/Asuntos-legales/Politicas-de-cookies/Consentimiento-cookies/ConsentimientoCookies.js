@@ -15,22 +15,29 @@ function ConsentimientoCookies() {
     }, [])
 
 
-function darConsentimiento() {
-    Cookies.set('consentimientoCookies', 'true', { expires: 365 });
-    setConsentidas(true);
-}
+    function darConsentimiento() {
+        Cookies.set('consentimientoCookies', 'true', { expires: 365 });
+        setConsentidas(true);
+    }
 
-if (consentidas) {
-    return null;
-}
+    if (consentidas) {
+        return null;
+    }
 
 
-return (
-    <div className={styles['consentimiento-cookie']}>
-        <p>Usamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestro uso de cookies.</p>
-        <button onClick={darConsentimiento}>Aceptar</button>
-    </div>
-);
+    return (
+        <div className={styles['consentimiento-cookie']}>
+
+            <p>
+                Usamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestro uso de cookies.
+            </p>
+
+            <button onClick={darConsentimiento}>
+                Aceptar
+            </button>
+
+        </div>
+    );
 }
 
 export default ConsentimientoCookies

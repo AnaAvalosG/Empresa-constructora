@@ -1,54 +1,59 @@
-.contenedor-form{
+.contenedor-form {
     width: 80%;
     margin: 50px;
-  text-align: center;
-}
-.contenedor-informacion-personal{
     text-align: center;
-    
 }
 
-.fieldset-contenedor-informacion-personal{
+.fieldset-contenedor-informacion-personal {
     width: 70%;
-   margin-inline-start: 13%;
+    margin-inline-start: 13%;
 }
 
-input{ 
+.contenedor-informacion-personal {
+    text-align: center;
+
+}
+
+input {
     background-color: rgb(220, 215, 215);
     height: 30px;
     margin: 10px;
 }
 
-.input-mensaje{
+.input-mensaje {
     height: 100px;
     width: 600px;
-  
+
 }
 
-.boton-enviar-form{
+.boton-enviar-form {
     margin: 10px;
     background-color: rgb(220, 215, 215);
-    width:300px;
+    width: 300px;
 }
 
-@media screen and (max-width:700px){
-    .contenedor-form{
-       margin: 0%;
+@media screen and (max-width:700px) {
+    .contenedor-form {
+        margin: 0%;
         width: 95%;
         text-align: center;
     }
-    .input-mensaje{
-       
+
+    .fieldset-contenedor-informacion-personal {
         width: 90%;
-      
-    }
-    .boton-enviar-form{
-        width:50%;
+        align-self: center;
+        margin-inline-start: 0%;
     }
 
-    .fieldset-contenedor-informacion-personal{
-      width: 90%;
-      align-self: center;
-       margin-inline-start: 0%;
+    .input-mensaje {
+
+        width: 90%;
+
     }
+
+    .boton-enviar-form {
+        width: 50%;
+    }
+
+
 }
